@@ -1,0 +1,647 @@
+REF_AREA:Geographic area,INDICATOR:Indicator,SEX:Sex,OBS_VALUE:Observation Value
+AFG: Afghanistan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.15
+AFG: Afghanistan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.14
+AFG: Afghanistan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.02
+AFG: Afghanistan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+ALB: Albania,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+ALB: Albania,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.02
+ALB: Albania,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+ALB: Albania,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.03
+DZA: Algeria,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.07
+DZA: Algeria,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.07
+DZA: Algeria,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.04
+DZA: Algeria,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.03
+AGO: Angola,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,11.31
+AGO: Angola,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,9.48
+AGO: Angola,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,1.28
+AGO: Angola,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.19
+AGO: Angola,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,F: Female,64.900002
+AGO: Angola,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,M: Male,59.700001
+AGO: Angola,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,F: Female,36.700001
+AGO: Angola,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,M: Male,15.7
+ARG: Argentina,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.29
+ARG: Argentina,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.22
+ARM: Armenia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.03
+ARM: Armenia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.05
+ARM: Armenia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.05
+ARM: Armenia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.07
+ARM: Armenia,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",F: Female,20.200001
+ARM: Armenia,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",M: Male,12.5
+ARM: Armenia,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,F: Female,35.599998
+ARM: Armenia,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,M: Male,31.9
+ARM: Armenia,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,F: Female,7
+ARM: Armenia,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,M: Male,0.69999999
+AUS: Australia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+AUS: Australia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+AUS: Australia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+AUS: Australia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.01
+AZE: Azerbaijan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.08
+AZE: Azerbaijan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.06
+AZE: Azerbaijan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.02
+AZE: Azerbaijan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.03
+BHS: Bahamas,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,2.61
+BHS: Bahamas,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,2.90
+BHS: Bahamas,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.34
+BHS: Bahamas,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.47
+BGD: Bangladesh,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.01
+BGD: Bangladesh,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.01
+BGD: Bangladesh,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+BGD: Bangladesh,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+BRB: Barbados,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,1.90
+BRB: Barbados,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,2.33
+BRB: Barbados,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.44
+BRB: Barbados,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.74
+BLR: Belarus,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.10
+BLR: Belarus,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.07
+BLR: Belarus,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.14
+BLR: Belarus,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.09
+BEL: Belgium,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+BEL: Belgium,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+BEL: Belgium,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.06
+BEL: Belgium,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+BLZ: Belize,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,1.47
+BLZ: Belize,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,2.28
+BLZ: Belize,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.78
+BLZ: Belize,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,1.07
+BEN: Benin,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,7.24
+BEN: Benin,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,9.51
+BEN: Benin,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.48
+BEN: Benin,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.11
+BTN: Bhutan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.28
+BTN: Bhutan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.26
+BTN: Bhutan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.03
+BTN: Bhutan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.01
+BOL: Bolivia (Plurinational State of),"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.92
+BOL: Bolivia (Plurinational State of),"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.88
+BOL: Bolivia (Plurinational State of),"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.06
+BOL: Bolivia (Plurinational State of),"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.04
+BWA: Botswana,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,84.22
+BWA: Botswana,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,77.91
+BWA: Botswana,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,8.53
+BWA: Botswana,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,1.29
+BGR: Bulgaria,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.05
+BGR: Bulgaria,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.11
+BGR: Bulgaria,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.03
+BGR: Bulgaria,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.09
+BFA: Burkina Faso,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,8.70
+BFA: Burkina Faso,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,12.09
+BFA: Burkina Faso,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.15
+BFA: Burkina Faso,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.05
+BDI: Burundi,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,14.01
+BDI: Burundi,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,18.01
+BDI: Burundi,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.32
+BDI: Burundi,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.04
+CPV: Cabo Verde,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,1.00
+CPV: Cabo Verde,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,1.06
+CPV: Cabo Verde,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.26
+CPV: Cabo Verde,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.09
+KHM: Cambodia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,1.31
+KHM: Cambodia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,1.58
+KHM: Cambodia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.21
+KHM: Cambodia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.29
+CMR: Cameroon,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,20.03
+CMR: Cameroon,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,19.75
+CMR: Cameroon,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,2.16
+CMR: Cameroon,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.36
+CAN: Canada,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+CAN: Canada,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+CAN: Canada,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.02
+CAN: Canada,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+CAF: Central African Republic,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,32.35
+CAF: Central African Republic,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,33.30
+CAF: Central African Republic,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,2.25
+CAF: Central African Republic,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.77
+TCD: Chad,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,9.24
+TCD: Chad,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,10.04
+TCD: Chad,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.90
+TCD: Chad,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.23
+CHL: Chile,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.06
+CHL: Chile,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.39
+COL: Colombia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.15
+COL: Colombia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.14
+COL: Colombia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.03
+COL: Colombia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.05
+COM: Comoros,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.15
+COM: Comoros,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.14
+COM: Comoros,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.02
+COM: Comoros,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+COG: Congo,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,29.87
+COG: Congo,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,22.41
+COG: Congo,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,5.63
+COG: Congo,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.47
+CRI: Costa Rica,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.19
+CRI: Costa Rica,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.50
+CRI: Costa Rica,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.09
+CRI: Costa Rica,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.47
+CUB: Cuba,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.20
+CUB: Cuba,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.53
+CUB: Cuba,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.20
+CUB: Cuba,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.50
+CYP: Cyprus,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.02
+CYP: Cyprus,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.02
+CYP: Cyprus,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.01
+CYP: Cyprus,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.03
+CZE: Czechia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+CZE: Czechia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.02
+CZE: Czechia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+CZE: Czechia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.04
+CIV: Côte d'Ivoire,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,19.76
+CIV: Côte d'Ivoire,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,25.57
+CIV: Côte d'Ivoire,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.90
+CIV: Côte d'Ivoire,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.06
+COD: Democratic Republic of the Congo,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,8.29
+COD: Democratic Republic of the Congo,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,8.98
+COD: Democratic Republic of the Congo,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.30
+COD: Democratic Republic of the Congo,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.10
+DNK: Denmark,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+DNK: Denmark,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+DNK: Denmark,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.01
+DNK: Denmark,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+DOM: Dominican Republic,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,3.36
+DOM: Dominican Republic,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,3.42
+DOM: Dominican Republic,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.53
+DOM: Dominican Republic,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.32
+UNICEF_EAP: East Asia and Pacific,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.27
+UNICEF_EAP: East Asia and Pacific,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.26
+UNICEF_EAP: East Asia and Pacific,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.09
+UNICEF_EAP: East Asia and Pacific,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.12
+UNICEF_ESA: Eastern and Southern Africa,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,23.39
+UNICEF_ESA: Eastern and Southern Africa,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,20.60
+UNICEF_ESA: Eastern and Southern Africa,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,3.93
+UNICEF_ESA: Eastern and Southern Africa,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.76
+ECU: Ecuador,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.40
+ECU: Ecuador,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.51
+ECU: Ecuador,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.18
+ECU: Ecuador,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.24
+EGY: Egypt,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.02
+EGY: Egypt,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.02
+EGY: Egypt,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+EGY: Egypt,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.01
+SLV: El Salvador,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.16
+SLV: El Salvador,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.28
+SLV: El Salvador,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.12
+SLV: El Salvador,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.23
+GNQ: Equatorial Guinea,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,19.68
+GNQ: Equatorial Guinea,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,23.04
+GNQ: Equatorial Guinea,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,4.21
+GNQ: Equatorial Guinea,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,1.39
+ERI: Eritrea,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,2.12
+ERI: Eritrea,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,2.09
+ERI: Eritrea,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.13
+ERI: Eritrea,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.04
+EST: Estonia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.04
+EST: Estonia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.01
+EST: Estonia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.07
+EST: Estonia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.03
+SWZ: Eswatini,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,120.02
+SWZ: Eswatini,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,71.21
+SWZ: Eswatini,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,24.93
+SWZ: Eswatini,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,2.31
+ETH: Ethiopia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,7.83
+ETH: Ethiopia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,8.38
+ETH: Ethiopia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.29
+ETH: Ethiopia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.05
+ETH: Ethiopia,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",F: Female,24.299999
+ETH: Ethiopia,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",M: Male,39.099998
+ETH: Ethiopia,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,F: Female,68.300003
+ETH: Ethiopia,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,M: Male,79.199997
+ETH: Ethiopia,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,F: Female,34.099998
+ETH: Ethiopia,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,M: Male,28.9
+FJI: Fiji,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.20
+FJI: Fiji,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.15
+FJI: Fiji,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.08
+FJI: Fiji,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.03
+FRA: France,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.02
+FRA: France,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.02
+FRA: France,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.05
+FRA: France,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.04
+GAB: Gabon,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,21.62
+GAB: Gabon,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,18.29
+GAB: Gabon,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,2.13
+GAB: Gabon,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.14
+GMB: Gambia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,8.85
+GMB: Gambia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,10.28
+GMB: Gambia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.38
+GMB: Gambia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.06
+GEO: Georgia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.01
+GEO: Georgia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.03
+GEO: Georgia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.02
+GEO: Georgia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.04
+DEU: Germany,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+DEU: Germany,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.02
+DEU: Germany,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.01
+DEU: Germany,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.07
+GHA: Ghana,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,18.31
+GHA: Ghana,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,20.77
+GHA: Ghana,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,1.46
+GHA: Ghana,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.15
+GRC: Greece,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+GRC: Greece,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+GRC: Greece,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.01
+GRC: Greece,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.01
+GRD: Grenada,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.66
+GRD: Grenada,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.33
+GRD: Grenada,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.10
+GRD: Grenada,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.03
+GTM: Guatemala,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.98
+GTM: Guatemala,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,1.07
+GTM: Guatemala,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.04
+GTM: Guatemala,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.06
+GIN: Guinea,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,9.67
+GIN: Guinea,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,9.81
+GIN: Guinea,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,1.51
+GIN: Guinea,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.32
+GNB: Guinea-Bissau,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,21.29
+GNB: Guinea-Bissau,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,25.09
+GNB: Guinea-Bissau,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,1.13
+GNB: Guinea-Bissau,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.38
+GUY: Guyana,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,1.01
+GUY: Guyana,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,1.32
+GUY: Guyana,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.27
+GUY: Guyana,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.10
+HTI: Haiti,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,8.88
+HTI: Haiti,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,8.83
+HTI: Haiti,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,1.44
+HTI: Haiti,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.35
+HND: Honduras,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,1.55
+HND: Honduras,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,1.67
+HND: Honduras,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+HND: Honduras,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.01
+HAC: Humanitarian Action Countries,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,5.61
+HAC: Humanitarian Action Countries,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,5.96
+HAC: Humanitarian Action Countries,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.45
+HAC: Humanitarian Action Countries,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.10
+ISL: Iceland,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+ISL: Iceland,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+ISL: Iceland,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.01
+ISL: Iceland,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+IND: India,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",F: Female,21.700001
+IND: India,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",M: Male,31.5
+IND: India,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,F: Female,43.799999
+IND: India,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,M: Male,56.599998
+IND: India,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,F: Female,9.6000004
+IND: India,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,M: Male,2.3
+IDN: Indonesia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.35
+IDN: Indonesia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.52
+IDN: Indonesia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.18
+IDN: Indonesia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.23
+IRN: Iran (Islamic Republic of),"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.11
+IRN: Iran (Islamic Republic of),"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.10
+IRN: Iran (Islamic Republic of),"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.03
+IRN: Iran (Islamic Republic of),"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+IRQ: Iraq,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.04
+IRQ: Iraq,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.02
+IRQ: Iraq,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+IRQ: Iraq,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+IRL: Ireland,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+IRL: Ireland,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+ITA: Italy,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+ITA: Italy,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+ITA: Italy,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.02
+ITA: Italy,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+JAM: Jamaica,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,1.49
+JAM: Jamaica,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,1.42
+JAM: Jamaica,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.66
+JAM: Jamaica,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.66
+JOR: Jordan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+JOR: Jordan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+JOR: Jordan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+JOR: Jordan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+KEN: Kenya,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,28.53
+KEN: Kenya,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,29.75
+KEN: Kenya,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,2.32
+KEN: Kenya,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.37
+KWT: Kuwait,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+KWT: Kuwait,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+KGZ: Kyrgyzstan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.04
+KGZ: Kyrgyzstan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.02
+KGZ: Kyrgyzstan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.03
+KGZ: Kyrgyzstan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+LAO: Lao People's Democratic Republic,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.28
+LAO: Lao People's Democratic Republic,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.27
+LAO: Lao People's Democratic Republic,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.18
+LAO: Lao People's Democratic Republic,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.23
+UNICEF_LAC: Latin America and the Caribbean,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.64
+UNICEF_LAC: Latin America and the Caribbean,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.79
+UNICEF_LAC: Latin America and the Caribbean,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.15
+UNICEF_LAC: Latin America and the Caribbean,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.25
+LVA: Latvia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.10
+LVA: Latvia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.07
+LVA: Latvia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.09
+LVA: Latvia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.07
+LBN: Lebanon,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.04
+LBN: Lebanon,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.10
+LSO: Lesotho,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,93.30
+LSO: Lesotho,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,79.63
+LSO: Lesotho,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,15.14
+LSO: Lesotho,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,2.03
+LBR: Liberia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,16.84
+LBR: Liberia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,17.44
+LBR: Liberia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.88
+LBR: Liberia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.21
+LBY: Libya,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.13
+LBY: Libya,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.15
+LTU: Lithuania,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.04
+LTU: Lithuania,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.05
+LTU: Lithuania,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.04
+LTU: Lithuania,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.05
+LUX: Luxembourg,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+LUX: Luxembourg,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.02
+LUX: Luxembourg,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.03
+LUX: Luxembourg,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.03
+MDG: Madagascar,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.43
+MDG: Madagascar,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.14
+MDG: Madagascar,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.21
+MDG: Madagascar,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+MWI: Malawi,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,31.05
+MWI: Malawi,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,34.70
+MWI: Malawi,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,1.17
+MWI: Malawi,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.09
+MWI: Malawi,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",F: Female,41.099998
+MWI: Malawi,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",M: Male,44.299999
+MWI: Malawi,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,F: Female,92.099998
+MWI: Malawi,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,M: Male,92.300003
+MWI: Malawi,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,F: Female,68.199997
+MWI: Malawi,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,M: Male,50.200001
+MYS: Malaysia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.07
+MYS: Malaysia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.13
+MYS: Malaysia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.04
+MYS: Malaysia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.07
+MDV: Maldives,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.01
+MDV: Maldives,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+MDV: Maldives,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+MDV: Maldives,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+MLI: Mali,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,8.33
+MLI: Mali,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,8.00
+MLI: Mali,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.89
+MLI: Mali,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.17
+MLT: Malta,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.04
+MLT: Malta,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.07
+MLT: Malta,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.09
+MLT: Malta,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.16
+MRT: Mauritania,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,2.70
+MRT: Mauritania,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,2.62
+MRT: Mauritania,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.05
+MRT: Mauritania,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+MEX: Mexico,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.18
+MEX: Mexico,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.80
+MEX: Mexico,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.14
+MEX: Mexico,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.58
+UNICEF_MENA: Middle East and North Africa,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.07
+UNICEF_MENA: Middle East and North Africa,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.07
+UNICEF_MENA: Middle East and North Africa,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.02
+UNICEF_MENA: Middle East and North Africa,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+MNG: Mongolia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+MNG: Mongolia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+MNG: Mongolia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+MNG: Mongolia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+MNE: Montenegro,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.03
+MNE: Montenegro,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.13
+MNE: Montenegro,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.03
+MNE: Montenegro,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.14
+MAR: Morocco,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.14
+MAR: Morocco,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.13
+MAR: Morocco,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.01
+MAR: Morocco,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+MOZ: Mozambique,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,50.73
+MOZ: Mozambique,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,40.58
+MOZ: Mozambique,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,13.68
+MOZ: Mozambique,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,3.78
+MMR: Myanmar,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,2.36
+MMR: Myanmar,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,1.49
+MMR: Myanmar,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.78
+MMR: Myanmar,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.52
+MMR: Myanmar,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",F: Female,16.200001
+MMR: Myanmar,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",M: Male,17.799999
+MMR: Myanmar,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,F: Female,60.5
+MMR: Myanmar,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,M: Male,56.099998
+MMR: Myanmar,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,F: Female,9.1999998
+MMR: Myanmar,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,M: Male,10.5
+NAM: Namibia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,46.50
+NAM: Namibia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,45.21
+NAM: Namibia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,9.07
+NAM: Namibia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,1.40
+NPL: Nepal,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.06
+NPL: Nepal,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.06
+NPL: Nepal,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.02
+NPL: Nepal,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+NPL: Nepal,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",F: Female,20.700001
+NPL: Nepal,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",M: Male,27.1
+NPL: Nepal,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,F: Female,34.5
+NPL: Nepal,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,M: Male,48.200001
+NPL: Nepal,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,F: Female,8.6000004
+NPL: Nepal,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,M: Male,10.9
+NLD: Netherlands (Kingdom of the),"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.01
+NLD: Netherlands (Kingdom of the),"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.03
+NLD: Netherlands (Kingdom of the),"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.04
+NLD: Netherlands (Kingdom of the),"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.07
+NZL: New Zealand,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+NZL: New Zealand,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+NZL: New Zealand,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+NZL: New Zealand,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.01
+NIC: Nicaragua,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.61
+NIC: Nicaragua,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.90
+NIC: Nicaragua,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.19
+NIC: Nicaragua,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.35
+NER: Niger,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,3.26
+NER: Niger,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,4.55
+NER: Niger,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.04
+NER: Niger,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+OMN: Oman,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.05
+OMN: Oman,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.07
+OMN: Oman,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+OMN: Oman,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+PAK: Pakistan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.06
+PAK: Pakistan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.06
+PAN: Panama,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.60
+PAN: Panama,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,1.72
+PAN: Panama,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.43
+PAN: Panama,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,1.21
+PNG: Papua New Guinea,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,1.14
+PNG: Papua New Guinea,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,1.03
+PNG: Papua New Guinea,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.43
+PNG: Papua New Guinea,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.15
+PRY: Paraguay,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.22
+PRY: Paraguay,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.26
+PER: Peru,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.22
+PER: Peru,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.37
+PER: Peru,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.04
+PER: Peru,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.04
+PHL: Philippines,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.04
+PHL: Philippines,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.26
+PHL: Philippines,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.03
+PHL: Philippines,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.33
+POL: Poland,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+POL: Poland,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.01
+POL: Poland,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+POL: Poland,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+PRT: Portugal,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.12
+PRT: Portugal,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.14
+PRT: Portugal,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.09
+PRT: Portugal,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.13
+QAT: Qatar,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+QAT: Qatar,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.01
+QAT: Qatar,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+QAT: Qatar,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+MDA: Republic of Moldova,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.37
+MDA: Republic of Moldova,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.47
+MDA: Republic of Moldova,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.19
+MDA: Republic of Moldova,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.20
+ROU: Romania,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.08
+ROU: Romania,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.10
+ROU: Romania,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.01
+ROU: Romania,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+RWA: Rwanda,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,13.34
+RWA: Rwanda,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,14.51
+RWA: Rwanda,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.91
+RWA: Rwanda,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.10
+KNA: Saint Kitts and Nevis,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.38
+KNA: Saint Kitts and Nevis,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,1.61
+KNA: Saint Kitts and Nevis,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.03
+KNA: Saint Kitts and Nevis,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,1.07
+STP: Sao Tome and Principe,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,7.02
+STP: Sao Tome and Principe,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,14.24
+STP: Sao Tome and Principe,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.06
+STP: Sao Tome and Principe,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+SAU: Saudi Arabia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.08
+SAU: Saudi Arabia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.16
+SAU: Saudi Arabia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+SAU: Saudi Arabia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.01
+SEN: Senegal,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,2.57
+SEN: Senegal,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,3.66
+SEN: Senegal,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.05
+SEN: Senegal,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+SEN: Senegal,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",F: Female,25.700001
+SEN: Senegal,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",M: Male,32.400002
+SEN: Senegal,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,F: Female,71.599998
+SEN: Senegal,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,M: Male,40.200001
+SEN: Senegal,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,F: Female,26
+SEN: Senegal,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,M: Male,13.3
+SRB: Serbia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+SRB: Serbia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+SRB: Serbia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.01
+SRB: Serbia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+SLE: Sierra Leone,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,15.33
+SLE: Sierra Leone,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,16.91
+SLE: Sierra Leone,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,1.99
+SLE: Sierra Leone,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.60
+SVK: Slovakia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+SVK: Slovakia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+SVK: Slovakia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+SVK: Slovakia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+ZAF: South Africa,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,58.28
+ZAF: South Africa,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,33.40
+ZAF: South Africa,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,17.40
+ZAF: South Africa,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,3.12
+ZAF: South Africa,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,F: Female,89.199997
+ZAF: South Africa,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,M: Male,90.900002
+ZAF: South Africa,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,F: Female,66.699997
+ZAF: South Africa,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,M: Male,56.200001
+UNICEF_SA: South Asia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.32
+UNICEF_SA: South Asia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.48
+UNICEF_SA: South Asia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.05
+UNICEF_SA: South Asia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.07
+SSD: South Sudan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,18.29
+SSD: South Sudan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,18.28
+SSD: South Sudan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,1.53
+SSD: South Sudan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.51
+ESP: Spain,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+ESP: Spain,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,<0.01
+LKA: Sri Lanka,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.01
+LKA: Sri Lanka,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.02
+LKA: Sri Lanka,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+LKA: Sri Lanka,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+UNICEF_SSA: Sub-Saharan Africa,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,16.70
+UNICEF_SSA: Sub-Saharan Africa,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,15.79
+UNICEF_SSA: Sub-Saharan Africa,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,2.38
+UNICEF_SSA: Sub-Saharan Africa,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.44
+SDN: Sudan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.86
+SDN: Sudan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.80
+SDN: Sudan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.05
+SDN: Sudan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+SUR: Suriname,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.56
+SUR: Suriname,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.66
+SUR: Suriname,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.30
+SUR: Suriname,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.11
+SYR: Syrian Arab Republic,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,<0.01
+SYR: Syrian Arab Republic,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.01
+SYR: Syrian Arab Republic,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,<0.01
+SYR: Syrian Arab Republic,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,<0.01
+TJK: Tajikistan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.01
+TJK: Tajikistan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.01
+TJK: Tajikistan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.04
+TJK: Tajikistan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+THA: Thailand,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,2.08
+THA: Thailand,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,2.25
+THA: Thailand,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.24
+THA: Thailand,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.50
+TLS: Timor-Leste,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.26
+TLS: Timor-Leste,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.19
+TLS: Timor-Leste,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.04
+TLS: Timor-Leste,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.01
+TLS: Timor-Leste,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",F: Female,7.6999998
+TLS: Timor-Leste,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",M: Male,14.6
+TLS: Timor-Leste,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,F: Female,6.0999999
+TLS: Timor-Leste,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,M: Male,21.299999
+TLS: Timor-Leste,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,F: Female,1.3
+TLS: Timor-Leste,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,M: Male,1.1
+TGO: Togo,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,15.44
+TGO: Togo,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,20.57
+TGO: Togo,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.99
+TGO: Togo,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.13
+TTO: Trinidad and Tobago,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.96
+TTO: Trinidad and Tobago,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.94
+TUN: Tunisia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.20
+TUN: Tunisia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.24
+UNICEF_REP_REG_GLOBAL: UNICEF reporting regions - Global,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,3.43
+UNICEF_REP_REG_GLOBAL: UNICEF reporting regions - Global,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,3.15
+UNICEF_REP_REG_GLOBAL: UNICEF reporting regions - Global,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.51
+UNICEF_REP_REG_GLOBAL: UNICEF reporting regions - Global,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.17
+UGA: Uganda,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,23.43
+UGA: Uganda,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,22.34
+UGA: Uganda,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,4.40
+UGA: Uganda,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.39
+UGA: Uganda,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",F: Female,45.700001
+UGA: Uganda,"HVA_PREV_KNOW: Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",M: Male,44.799999
+UGA: Uganda,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,F: Female,93.900002
+UGA: Uganda,HVA_PREV_KNOW_TEST: Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,M: Male,92.599998
+UGA: Uganda,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,F: Female,71.199997
+UGA: Uganda,HVA_PREV_TEST_RES: Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,M: Male,56.900002
+ARE: United Arab Emirates,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.04
+ARE: United Arab Emirates,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.08
+TZA: United Republic of Tanzania,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,17.84
+TZA: United Republic of Tanzania,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,19.45
+TZA: United Republic of Tanzania,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,3.53
+TZA: United Republic of Tanzania,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.92
+USA: United States,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.02
+USA: United States,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.09
+URY: Uruguay,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.55
+URY: Uruguay,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.31
+URY: Uruguay,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.40
+URY: Uruguay,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.24
+UZB: Uzbekistan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.15
+UZB: Uzbekistan,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.22
+UZB: Uzbekistan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.05
+UZB: Uzbekistan,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.05
+VEN: Venezuela (Bolivarian Republic of),"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.52
+VEN: Venezuela (Bolivarian Republic of),"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.84
+VNM: Viet Nam,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.12
+VNM: Viet Nam,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.20
+VNM: Viet Nam,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.04
+VNM: Viet Nam,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.17
+UNICEF_WCA: West and Central Africa,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,10.16
+UNICEF_WCA: West and Central Africa,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,11.19
+UNICEF_WCA: West and Central Africa,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.88
+UNICEF_WCA: West and Central Africa,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.14
+YEM: Yemen,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,0.13
+YEM: Yemen,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,0.13
+YEM: Yemen,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,0.03
+YEM: Yemen,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,0.02
+ZMB: Zambia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,46.35
+ZMB: Zambia,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,39.89
+ZMB: Zambia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,8.36
+ZMB: Zambia,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,1.19
+ZWE: Zimbabwe,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",F: Female,84.45
+ZWE: Zimbabwe,"HVA_EPI_DTH_RT: Estimated rate of annual AIDS-related deaths (per 100,000 population)",M: Male,85.51
+ZWE: Zimbabwe,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",F: Female,6.48
+ZWE: Zimbabwe,"HVA_EPI_INF_RT: Estimated incidence rate (new HIV infection per 1,000 uninfected population)",M: Male,1.02

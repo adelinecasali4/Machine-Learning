@@ -1,0 +1,682 @@
+---
+title: "Addressing Global Health Challenges Through Machine Learning"
+author: "Adeline Casali"
+date: "2023-12-05"
+output: word_document
+---
+
+# Section 1: What subset of predictors can be used for preventative health screening for heart disease? 
+
+**Loading data and packages**
+```{r}
+heart_df <- read.csv("Data/heart_disease_health_indicators_BRFSS2015.csv")
+library(corrplot)
+library(tidyverse)
+library(MASS)
+library(e1071)
+library(class)
+library(tree)
+library(randomForest)
+library(gbm)
+library(kableExtra)
+library(coefplot)
+library(class)
+```
+**Data exploration and tidying**   
+The only predictors that have a correlation stronger than 0.5 are physical health and general health with a correlation of 0.52. 
+```{r}
+# View the dataset and summary statistics
+head(heart_df)
+summary(heart_df)
+str(heart_df)
+dim(heart_df)
+names(heart_df)
+
+# Check for missing values
+sum(is.na(heart_df))
+
+# Check for correlated variables
+cor_matrix <- cor(heart_df)
+corrplot(cor_matrix, method = "color", tl.col = "black", tl.srt = 45)
+title("Correlation Heatmap")
+cor_matrix <- cor(heart_df)
+cor_matrix_filtered <- cor_matrix
+cor_matrix_filtered[abs(cor_matrix) <= 0.5] <- NA
+print(cor_matrix_filtered)
+
+# Convert HeartDiseaseorAttack to factor
+heart_df$HeartDiseaseorAttack <- as.factor(heart_df$HeartDiseaseorAttack)
+```
+**Logistic Regression**    
+The logistic regression model with all predictors shows that the variables HighBP, HighChol, CholCheck, Smoker, Stroke, Diabetes, HvyAlcoholConsump, NoDocbcCost, GenHlth, DiffWalk, Sex, Age, and Income were the most significant predictors, followed by PhysActivity, Veggies, and MentHlth. The model created with all of the significant predictors has an accuracy of 89.78%, and the model created with only the most significant predictors has the same accuracy of 89.78%. 
+```{r}
+# Null model
+heart_lm_null <- glm(HeartDiseaseorAttack ~ HeartDiseaseorAttack, data = heart_df, family = binomial)
+summary(heart_lm_null)
+
+# Model with all predictors
+heart_lm <- glm(HeartDiseaseorAttack ~ ., data = heart_df, family = binomial)
+summary(heart_lm)
+
+# Create a training and testing set
+set.seed(123)
+heart_train <- heart_df %>% 
+  sample_frac(0.7)
+heart_test <- anti_join(heart_df, heart_train)
+
+# Model with significant predictors
+heart_lm_sig <- glm(HeartDiseaseorAttack ~ HighBP + HighChol + CholCheck + Smoker + Stroke + Diabetes + HvyAlcoholConsump + NoDocbcCost + GenHlth + DiffWalk + Sex + Age + Income + PhysActivity + Veggies + MentHlth, data = heart_train, family = binomial)
+summary(heart_lm_sig)
+Coefficient <- coef(heart_lm_sig)
+coefficients_df <- as.data.frame(Coefficient)
+sig_coefficients_table <- kable(coefficients_df, format = "markdown")
+print(sig_coefficients_table)
+
+# Test the model and calculate accuracy
+predict_lm <- predict(heart_lm_sig, newdata = heart_test)
+binary_predict_lm <- ifelse(predict_lm > 0.5, 1, 0)
+results <- data.frame(
+  Actual = heart_test$HeartDiseaseorAttack, 
+  Predicted = binary_predict_lm
+)
+results$Correct <- results$Actual == results$Predicted
+confusion_matrix_lm <- table(Predicted = results$Predicted, Actual = results$Actual)
+print(confusion_matrix_lm)
+accuracy_lm <- (59853 + 391) / (59853 + 6623 + 234 + 391)
+error_lm <- 1 - accuracy_lm
+cat("Accuracy:", accuracy_lm, "\n")
+cat("Error Rate:", error_lm, "\n")
+
+# Model with only the most significant predictors
+heart_lm_sig2 <- glm(HeartDiseaseorAttack ~ HighBP + HighChol + CholCheck + Smoker + Stroke + Diabetes + HvyAlcoholConsump + NoDocbcCost + GenHlth + DiffWalk + Sex + Age + Income, data = heart_train, family = binomial)
+summary(heart_lm_sig2)
+coef(heart_lm_sig2)
+
+# Test the second model and calculate accuracy
+predict_lm2 <- predict(heart_lm_sig2, newdata = heart_test)
+binary_predict_lm2 <- ifelse(predict_lm2 > 0.5, 1, 0)
+results2 <- data.frame(
+  Actual = heart_test$HeartDiseaseorAttack, 
+  Predicted = binary_predict_lm2
+)
+results2$Correct <- results2$Actual == results2$Predicted
+confusion_matrix_lm2 <- table(Predicted = results2$Predicted, Actual = results2$Actual)
+print(confusion_matrix_lm2)
+accuracy_lm2 <- (59847 + 396) / (59847 + 6618 + 240 + 396)
+error_lm2 <- 1 - accuracy_lm2
+cat("Accuracy:", accuracy_lm2, "\n")
+cat("Error Rate:", error_lm2, "\n")
+```
+**LDA**    
+The LDA model containing all significant predictors has an accuracy of 89.14%. 
+```{r}
+# Model with significant predictors
+heart_lda <- lda(HeartDiseaseorAttack ~ HighBP + HighChol + CholCheck + Smoker + Stroke + Diabetes + HvyAlcoholConsump + NoDocbcCost + GenHlth + DiffWalk + Sex + Age + Income + PhysActivity + Veggies + MentHlth, data = heart_train)
+heart_lda
+
+# Test the model and calculate accuracy
+lda_predictions <- predict(heart_lda, newdata = heart_test)$class
+lda_results <- data.frame(
+  Actual = heart_test$HeartDiseaseorAttack,
+  Predicted = lda_predictions
+)
+lda_results$Correct <- lda_results$Actual == lda_results$Predicted
+lda_confusion_matrix <- table(Predicted = lda_results$Predicted, Actual = lda_results$Actual)
+print(lda_confusion_matrix)
+accuracy_lda <- (58497 + 1320) / (58497 + 5694 + 1590 + 1320)
+error_lda <- 1 - accuracy_lda
+cat("Accuracy:", accuracy_lda, "\n")
+cat("Error Rate:", error_lda, "\n")
+```
+**QDA**   
+The QDA model containing all significant predictors has an accuracy of 83.25%.
+```{r}
+# Model with significant predictors
+heart_qda <- qda(HeartDiseaseorAttack ~ HighBP + HighChol + CholCheck + Smoker + Stroke + Diabetes + HvyAlcoholConsump + NoDocbcCost + GenHlth + DiffWalk + Sex + Age + Income + PhysActivity + Veggies + MentHlth, data = heart_train)
+heart_qda
+heart_qda$scaling
+
+# Test the model and calculate accuracy
+qda_predictions <- predict(heart_qda, newdata = heart_test)$class
+qda_results <- data.frame(
+  Actual = heart_test$HeartDiseaseorAttack,
+  Predicted = qda_predictions
+)
+qda_results$Correct <- qda_results$Actual == qda_results$Predicted
+qda_confusion_matrix <- table(Predicted = qda_results$Predicted, Actual = qda_results$Actual)
+print(qda_confusion_matrix)
+accuracy_qda <- (52651 + 3212) / (52651 + 3802 + 7436 + 3212)
+error_qda <- 1 - accuracy_qda
+cat("Accuracy:", accuracy_qda, "\n")
+cat("Error Rate:", error_qda, "\n")
+```
+**Naive Bayes**    
+The Naive Bayes model containing all significant predictors has an accuracy of 80.39%.
+```{r}
+# Model with significant predictors
+heart_nb <- naiveBayes(HeartDiseaseorAttack ~ HighBP + HighChol + CholCheck + Smoker + Stroke + Diabetes + HvyAlcoholConsump + NoDocbcCost + GenHlth + DiffWalk + Sex + Age + Income + PhysActivity + Veggies + MentHlth, data = heart_train)
+heart_nb
+
+# Test the model and calculate accuracy
+nb_predictions <- predict(heart_nb, newdata = heart_test)
+nb_results <- data.frame(
+  Actual = heart_test$HeartDiseaseorAttack,
+  Predicted = nb_predictions
+)
+nb_results$Correct <- nb_results$Actual == nb_results$Predicted
+nb_confusion_matrix <- table(Predicted = nb_results$Predicted, Actual = nb_results$Actual)
+print(nb_confusion_matrix)
+accuracy_nb <- (50161 + 3780) / (50161 + 3234 + 9926 + 3780)
+error_nb <- 1 - accuracy_nb
+cat("Accuracy:", accuracy_nb, "\n")
+cat("Error Rate:", error_nb, "\n")
+```
+**KNN (K-Nearest Neighbors)**   
+The KNN model containing all significant predictors and K=3 has an accuracy of 98.13%. 
+```{r}
+# Model with all significant predictors and K = 3
+predictors <- c(
+  "HighBP", "HighChol", "CholCheck", "Smoker", "Stroke", "Diabetes",
+  "HvyAlcoholConsump", "NoDocbcCost", "GenHlth", "DiffWalk",
+  "Sex", "Age", "Income", "PhysActivity", "Veggies", "MentHlth"
+)
+train_data <- heart_train[, c(predictors, "HeartDiseaseorAttack")]
+test_data <- heart_test[, c(predictors, "HeartDiseaseorAttack")]
+knn_predictions <- knn(
+  train = train_data[, -length(predictors)],
+  test = test_data[, -length(predictors)],
+  cl = train_data$HeartDiseaseorAttack,
+  k = 3
+)
+knn_results <- data.frame(
+  Actual = test_data$HeartDiseaseorAttack,
+  Predicted = knn_predictions
+)
+knn_results$Correct <- knn_results$Actual == knn_results$Predicted
+knn_confusion_matrix <- table(Predicted = knn_results$Predicted, Actual = knn_results$Actual)
+print(knn_confusion_matrix)
+accuracy_knn <- (60082 + 5763) / (60082 + 1251 + 5 + 5763)
+error_knn <- 1 - accuracy_knn
+cat("Accuracy:", accuracy_knn, "\n")
+cat("Error Rate:", error_knn, "\n")
+
+# Model with all significant predictors and K = 5
+knn_predictions2 <- knn(
+  train = train_data[, -length(predictors)],
+  test = test_data[, -length(predictors)],
+  cl = train_data$HeartDiseaseorAttack,
+  k = 5
+)
+knn_results2 <- data.frame(
+  Actual = test_data$HeartDiseaseorAttack,
+  Predicted = knn_predictions2
+)
+knn_results2$Correct <- knn_results2$Actual == knn_results2$Predicted
+knn_confusion_matrix2 <- table(Predicted = knn_results2$Predicted, Actual = knn_results2$Actual)
+print(knn_confusion_matrix2)
+accuracy_knn2 <- (60085 + 5606) / (60085 + 1408 + 2 + 5606)
+error_knn2 <- 1 - accuracy_knn2
+cat("Accuracy:", accuracy_knn2, "\n")
+cat("Error Rate:", error_knn2, "\n")
+
+# Model with all significant predictors and K = 10
+knn_predictions3 <- knn(
+  train = train_data[, -length(predictors)],
+  test = test_data[, -length(predictors)],
+  cl = train_data$HeartDiseaseorAttack,
+  k = 10
+)
+knn_results3 <- data.frame(
+  Actual = test_data$HeartDiseaseorAttack,
+  Predicted = knn_predictions3
+)
+knn_results3$Correct <- knn_results3$Actual == knn_results3$Predicted
+knn_confusion_matrix3 <- table(Predicted = knn_results3$Predicted, Actual = knn_results3$Actual)
+print(knn_confusion_matrix3)
+accuracy_knn3 <- (60087 + 5340) / (60087 + 1674 + 0 + 5340)
+error_knn3 <- 1 - accuracy_knn3
+cat("Accuracy:", accuracy_knn3, "\n")
+cat("Error Rate:", error_knn3, "\n")
+```
+**Classification Trees**   
+The classification tree containing all predictors and pruned with cross-validation has an accuracy of 89.55%. 
+```{r}
+# Model with all predictors
+heart_tree <- tree(HeartDiseaseorAttack ~ ., heart_train)
+summary(heart_tree)
+plot(heart_tree)
+text(heart_tree, pretty = 0)
+
+# Test the model and calculate accuracy
+tree_predict <- predict(heart_tree, heart_test, type = "class")
+tree_results <- data.frame(
+  Actual = heart_test$HeartDiseaseorAttack,
+  Predicted = tree_predict
+)
+tree_results$Correct <- tree_results$Actual == tree_results$Predicted
+tree_confusion_matrix <- table(Predicted = tree_results$Predicted, Actual = tree_results$Actual)
+print(tree_confusion_matrix)
+accuracy_tree <- (60087 + 0) / (60087 + 7014 + 0 + 0)
+error_tree <- 1 - accuracy_tree
+cat("Accuracy:", accuracy_tree, "\n")
+cat("Error Rate:", error_tree, "\n")
+
+# Prune the tree with cross-validation
+set.seed(123)
+cv_heart <- cv.tree(heart_tree, FUN = prune.misclass)
+cv_heart
+prune_heart <- prune.misclass(heart_tree, best = 5)
+plot(prune_heart)
+text(prune_heart, pretty = 0)
+
+# Test the pruned tree and calculate accuracy
+tree_predict2 <- predict(prune_heart, heart_test, type = "class")
+tree_results2 <- data.frame(
+  Actual = heart_test$HeartDiseaseorAttack,
+  Predicted = tree_predict2
+)
+tree_results2$Correct <- tree_results2$Actual == tree_results2$Predicted
+tree_confusion_matrix2 <- table(Predicted = tree_results2$Predicted, Actual = tree_results2$Actual)
+print(tree_confusion_matrix2)
+accuracy_tree2 <- (60087 + 0) / (60087 + 7014 + 0 + 0)
+error_tree2 <- 1 - accuracy_tree2
+cat("Accuracy:", accuracy_tree2, "\n")
+cat("Error Rate:", error_tree2, "\n")
+
+# The pruned and unpruned trees are the same
+```
+**Bagging**   
+The bagged classification tree containing all predictors has an accuracy of 87.75%. The most important predictors in the tree are (1) Age, (2) BMI, and (3) Income. 
+```{r}
+# Model with all predictors
+set.seed(123)
+heart_bag <- randomForest(HeartDiseaseorAttack ~ ., data = heart_train, mtry = 16, importance = TRUE, ntree = 25)
+heart_bag
+importance(heart_bag)
+
+# Test the model and calculate accuracy
+tree_predict_bag <- predict(heart_bag, heart_test, type = "class")
+tree_results_bag <- data.frame(
+  Actual = heart_test$HeartDiseaseorAttack,
+  Predicted = tree_predict_bag
+)
+tree_results_bag$Correct <- tree_results_bag$Actual == tree_results_bag$Predicted
+tree_confusion_matrix_bag <- table(Predicted = tree_results_bag$Predicted, Actual = tree_results_bag$Actual)
+print(tree_confusion_matrix_bag)
+accuracy_tree_bag <- (57539 + 1341) / (57539 + 5673 + 2548 + 1341)
+error_tree_bag <- 1 - accuracy_tree_bag
+cat("Accuracy:", accuracy_tree_bag, "\n")
+cat("Error Rate:", error_tree_bag, "\n")
+```
+**Random Forests**   
+The random forest classification tree containing all predictors has an accuracy of 89.45%. The most important predictors in the tree are (1) Age, (2) BMI, and (3) GenHlth. 
+```{r}
+# Model with all predictors
+set.seed(123)
+heart_rf <- randomForest(HeartDiseaseorAttack ~ ., data = heart_train, mtry = 4, importance = TRUE, ntree = 25)
+heart_rf
+importance(heart_rf)
+
+# Test the model and calculate accuracy
+tree_predict_rf <- predict(heart_rf, heart_test, type = "class")
+tree_results_rf <- data.frame(
+  Actual = heart_test$HeartDiseaseorAttack,
+  Predicted = tree_predict_rf
+)
+tree_results_rf$Correct <- tree_results_rf$Actual == tree_results_rf$Predicted
+tree_confusion_matrix_rf <- table(Predicted = tree_results_rf$Predicted, Actual = tree_results_rf$Actual)
+print(tree_confusion_matrix_rf)
+accuracy_tree_rf <- (59362 + 679) / (59362 + 6335 + 725 + 679)
+error_tree_rf <- 1 - accuracy_tree_rf
+cat("Accuracy:", accuracy_tree_rf, "\n")
+cat("Error Rate:", error_tree_rf, "\n")
+```
+**Overview of models**   
+Overall, the model with the highest accuracy is kNN with k=3. This model has an accuracy of 98.13%. 
+```{r}
+# Table with models and relative accuracies
+classification_overview <- data.frame(
+  Method = c("Logistic Regression", "LDA", "QDA", "Naive Bayes", "kNN (k=3)", "CV Tree", "Bagging", "Random Forest"),
+  Accuracy = c("89.78%", "89.14%", "83.25%", "80.39%", "98.13%", "89.55%", "87.75%", "89.45%")
+)
+classification_table <- kable(classification_overview, "markdown") %>%
+  kable_styling(full_width = FALSE) %>%
+  column_spec(1, bold = TRUE)
+classification_table
+```
+
+
+# Section 2: What indicators can be used to predict HIV rates? 
+
+**Loading data and packages**
+```{r}
+library(readxl)
+library(tidyverse)
+library(boot)
+library(pls)
+library(leaps)
+library(glmnet)
+library(tree)
+library(randomForest)
+library(gbm)
+library(kableExtra)
+library(tidyverse)
+library(corrplot)
+hiv_df <- read_xlsx("Data/HIV_Data.xlsx")
+```
+**Data Tidying**   
+Cleaned and formatted data, and used bootstrapping to generate additional observations. 
+```{r}
+# Remove male and female (only interested in total due to missing values)
+hiv_df <- subset(hiv_df, !(Sex %in% c("Male", "Female")))
+hiv_df <- hiv_df[ , -3]
+
+# Pivot from long to wide format
+hiv_df <- pivot_wider(
+  data = hiv_df,
+  names_from = c(Indicator),  # Specify the columns to pivot
+  values_from = c(OBS_VALUE),              # Specify the values column
+  names_sep = "_"
+)
+hiv_df <- hiv_df[ , -13]
+
+# Change column names
+colnames(hiv_df) <- c("country", "year", "infant_mortality_rate", "fertility_rate", "life_exp", "pop_growth_rate", "urban_pop", "youth_literacy_rate", "aids_death_rate", "hiv_infection_rate", "mother_child_hiv_transmis_rate", "per_child_under_poverty")
+
+# Interpolate missing values for years based on other years for that country
+hiv_df <- hiv_df %>%
+  group_by(country) %>%
+  fill(c(pop_growth_rate, youth_literacy_rate, per_child_under_poverty), .direction = "updown") %>%
+  ungroup()
+
+# Convert to numeric columns
+hiv_df <- hiv_df %>%
+  unnest_wider(infant_mortality_rate, names_sep = "_") %>%
+  unnest_wider(fertility_rate, names_sep = "_") %>%
+  unnest_wider(life_exp, names_sep = "_") %>%
+  unnest_wider(pop_growth_rate, names_sep = "_") %>%
+  unnest_wider(urban_pop, names_sep = "_") %>%
+  unnest_wider(youth_literacy_rate, names_sep = "_") %>%
+  unnest_wider(aids_death_rate, names_sep = "_") %>%
+  unnest_wider(hiv_infection_rate, names_sep = "_") %>%
+  unnest_wider(mother_child_hiv_transmis_rate, names_sep = "_") %>%
+  unnest_wider(per_child_under_poverty, names_sep = "_") %>%
+  mutate(across(-c(country, year), ~as.numeric(as.character(.))))
+hiv_df <- hiv_df[ , -c(4, 5, 7, 9, 11)]
+colnames(hiv_df) <- c("country", "year", "infant_mortality_rate", "fertility_rate", "life_exp", "pop_growth_rate", "urban_pop", "youth_literacy_rate", "aids_death_rate", "hiv_infection_rate", "mother_child_hiv_transmis_rate", "per_child_under_poverty")
+
+# Check for NA values
+colSums(is.na(hiv_df))
+hiv_df <- na.omit(hiv_df)
+
+# Use bootstrapping to expand the dataset to 1000 observations
+set.seed(123)
+generate_boot_dataset <- function(data) {
+  boot_indices <- sample(nrow(data), replace = TRUE)
+  boot_data <- data[boot_indices, ]
+  return(boot_data)
+}
+num_bootstrap_samples <- ceiling(1000 / nrow(hiv_df))
+boot_datasets <- lapply(1:num_bootstrap_samples, function(i) generate_boot_dataset(hiv_df))
+hiv_df_boot <- do.call(rbind, boot_datasets)
+```
+**Data Exploration**   
+Colinearity is present between multiple variables (infant_mortality_rate, fertility_rate, life_exp, pop_growth_rate, and youth_literacy_rate all seem to be correlated). This is something to keep in mind during the evaluation of models. 
+```{r}
+# View the dataset and summary statistics
+head(hiv_df_boot)
+summary(hiv_df_boot)
+str(hiv_df_boot)
+dim(hiv_df_boot)
+names(hiv_df_boot)
+
+# Check for correlated variables
+cor_matrix <- cor(hiv_df_boot[, c(3:12)])
+corrplot(cor_matrix, method = "color", tl.col = "black", tl.srt = 45)
+title("Correlation Heatmap")
+cor_matrix_filtered <- cor_matrix
+cor_matrix_filtered[abs(cor_matrix) <= 0.7] <- NA
+print(cor_matrix_filtered)
+```
+**Best Subset Selection**   
+The model created using best subset selection determined the model with the lowest MSE is one that contains 6 predictors (infant_mortality_rate, fertility_rate, youth_literacy_rate, aids_death_rate, mother_child_hiv_transmis_rate, and per_child_under_poverty) with an MSE of 1.116785 and an adjusted R-squared value of 0.778. 
+```{r}
+# Creating a training and testing set
+set.seed(123) 
+train_hiv <- sample(c(TRUE, FALSE), nrow(hiv_df_boot), replace = TRUE)
+test_hiv <- (!train_hiv)
+
+# Creating the model
+best_subset_hiv <- regsubsets(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot[train_hiv, ], nvmax = 9)
+best_summary <- summary(best_subset_hiv)
+best_summary
+
+# Testing and determining the best model
+test_mat_best <- model.matrix(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot[test_hiv, ])
+val.errors <- rep(NA, 9)
+for (i in 1:9) {
+  coefi <- coef(best_subset_hiv, id = i)
+  pred <- test_mat_best[, names(coefi)] %*% coefi
+  val.errors[i] <- mean((hiv_df_boot$hiv_infection_rate[test_hiv] - pred)^2)
+}
+val.errors
+which.min(val.errors)
+coef(best_subset_hiv, 6)
+cat("Adjusted RSq:", best_summary$rsq[6], "\n")
+cat("MSE:", val.errors[6], "\n")
+```
+**Forward Stepwise Selection**    
+The best model created with forward stepwise selection contains the same 6 predictors as the best subset selection model, with the same MSE of 1.116785 and adjusted R-squared value of 0.778.
+```{r}
+forward_subset_hiv <- regsubsets(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot[train_hiv, ], nvmax = 9, method = "forward")
+forward_summary <- summary(forward_subset_hiv)
+forward_summary
+
+# Testing and determining the best model
+test_mat_forward <- model.matrix(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot[test_hiv, ], method = "forward")
+val.errors2 <- rep(NA, 9)
+for (i in 1:9) {
+  coefi <- coef(forward_subset_hiv, id = i)
+  pred <- test_mat_forward[, names(coefi)] %*% coefi
+  val.errors2[i] <- mean((hiv_df_boot$hiv_infection_rate[test_hiv] - pred)^2)
+}
+val.errors2
+which.min(val.errors2)
+coef(forward_subset_hiv, 6)
+cat("Adjusted RSq:", forward_summary$rsq[6], "\n")
+cat("MSE:", val.errors2[6], "\n")
+```
+**Backward Stepwise Selection**    
+The best model created with backward stepwise selection contains the same 6 predictors as the best subset selection model, with the same MSE of 1.116785 and adjusted R-squared value of 0.778.
+```{r}
+backward_subset_hiv <- regsubsets(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot[train_hiv, ], nvmax = 9, method = "backward")
+backward_summary <- summary(backward_subset_hiv)
+backward_summary
+
+# Testing and determining the best model
+test_mat_backward <- model.matrix(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot[test_hiv, ], method = "backward")
+val.errors3 <- rep(NA, 9)
+for (i in 1:9) {
+  coefi <- coef(forward_subset_hiv, id = i)
+  pred <- test_mat_backward[, names(coefi)] %*% coefi
+  val.errors3[i] <- mean((hiv_df_boot$hiv_infection_rate[test_hiv] - pred)^2)
+}
+val.errors3
+which.min(val.errors3)
+coef(forward_subset_hiv, 6)
+cat("Adjusted RSq:", backward_summary$rsq[6], "\n")
+cat("MSE:", val.errors3[6], "\n")
+```
+**Ridge Regression**    
+The model created with ridge regression has an MSE of 1.655353. 
+```{r}
+# Creating x and y vectors
+x <- model.matrix(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, hiv_df_boot)[, -1]
+y <- hiv_df_boot$hiv_infection_rate
+
+# Creating test and training sets
+set.seed(123)
+train <- sample(1:nrow(x), nrow(x) / 2)
+test <- (-train)
+y.test <- y[test]
+
+# Creating the model
+grid <- 10^seq(10, -2, length = 100)
+ridge_hiv <- glmnet(x[train, ], y[train], alpha = 0, lambda = grid)
+plot(ridge_hiv)
+
+# Determing the best lambda value
+set.seed(123)
+cv_out <- cv.glmnet(x[train, ], y[train], alpha = 0)
+plot(cv_out)
+bestlam_ridge <- cv_out$lambda.min
+bestlam_ridge
+
+# Testing the model and calculating MSE
+ridge_pred_hiv <- predict(ridge_hiv, s = bestlam_ridge, newx = x[test, ])
+out <- glmnet(x, y, alpha = 0)
+predict(out, type = "coefficients", s = bestlam_ridge)[1:10, ]
+cat("MSE:", mean((ridge_pred_hiv - y.test)^2), "\n")
+```
+**Lasso**    
+The model created with the lasso method has an MSE of 1.586618. 
+```{r}
+# Creating the model
+lasso_hiv <- glmnet(x[train, ], y[train], alpha = 1, lambda = grid)
+plot(lasso_hiv)
+
+# Determining the best lambda value
+set.seed(123)
+cv_out2 <- cv.glmnet(x[train, ], y[train], alpha = 1)
+plot(cv_out2)
+bestlam_lasso <- cv_out2$lambda.min
+bestlam_lasso
+
+# Testing the model and calculating MSE
+lasso_pred_hiv <- predict(lasso_hiv, s = bestlam_lasso, newx = x[test, ])
+out2 <- glmnet(x, y, alpha = 1)
+predict(out2, type = "coefficients", s = bestlam_lasso)[1:10, ]
+cat("MSE:", mean((lasso_pred_hiv - y.test)^2), "\n")
+```
+**Partial Least Squares (PLS)**    
+The model created with the partial least squares method has an MSE of 1.587266. 
+```{r}
+# Creating the model
+set.seed(123)
+pls_hiv <- plsr(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot, subset = train, scale = TRUE, validation = "CV")
+summary(pls_hiv)
+
+# Determining the best M value and calculating MSE
+validationplot(pls_hiv, val.type = "MSEP")
+# The lowest cross-validation error occurs when M = 5 partial least squares directions are used. 
+pls_pred_hiv <- predict(pls_hiv, x[test, ], ncomp = 5)
+pls_fit_hiv <- plsr(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot, subset = train, scale = TRUE, ncomp = 5)
+summary(pls_fit_hiv)
+coef(pls_fit_hiv)
+cat("MSE:", mean((pls_pred_hiv - y.test)^2), "\n")
+```
+**Regression Tree**    
+The regression tree created with cross validation has an MSE of 0.8744749.
+```{r}
+# Creating a training data set
+set.seed(123)
+train <- sample(1:nrow(hiv_df_boot), nrow(hiv_df_boot) / 2)
+
+# Creating the model
+tree_hiv <- tree(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, hiv_df_boot, subset = train)
+summary(tree_hiv)
+plot(tree_hiv)
+text(tree_hiv, pretty = 0)
+
+# Prune the tree with cross validation
+cv_hiv <- cv.tree(tree_hiv)
+cv_hiv
+plot(cv_hiv$size, cv_hiv$dev, type = "b")
+# The best number of terminal nodes was already selected by the unpruned tree, at 5.
+yhat <- predict(tree_hiv, newdata = hiv_df_boot[-train, ])
+hiv_test <- unlist(hiv_df_boot[-train, "hiv_infection_rate"])
+cat("MSE:", mean((yhat - hiv_test)^2), "\n")
+```
+**Bagging**    
+The regression tree created with bagging has an MSE of 0.07755276. 
+```{r}
+# Creating the model
+set.seed(123)
+bag_hiv <- randomForest(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot, subset = train, mtry = 9, importance = TRUE)
+bag_hiv
+importance(bag_hiv)
+
+# Testing the model and calculating MSE
+yhat_bag <- predict(bag_hiv, newdata = hiv_df_boot[-train, ])
+cat("MSE:", mean((yhat_bag - hiv_test)^2), "\n")
+```
+**Random Forests**    
+The regression tree created with random forests has an MSE of 0.118209.
+```{r}
+# Creating the model
+set.seed(123)
+rf_hiv <- randomForest(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot, subset = train, mtry = 3, importance = TRUE)
+rf_hiv
+importance(rf_hiv)
+
+# Testing the model and calculating MSE
+yhat_rf <- predict(rf_hiv, newdata = hiv_df_boot[-train, ])
+cat("MSE:", mean((yhat_rf - hiv_test)^2), "\n")
+```
+**Boosting**    
+The regression tree created with boosting has an MSE of 0.1268387.
+```{r}
+# Creating the model
+set.seed(123)
+boost_hiv <- gbm(hiv_infection_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + aids_death_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot[train, ], distribution = "gaussian", n.trees = 5000, interaction.depth = 4)
+summary(boost_hiv)
+
+# Testing the model and calculating the MSE
+yhat_boost <- predict(boost_hiv, newdata = hiv_df_boot[-train, ], n.trees = 5000)
+cat("MSE:", mean((yhat_boost - hiv_test)^2), "\n")
+```
+**Overview of Models**   
+
+```{r}
+# Table with models and relative MSEs
+quantitative_overview <- data.frame(
+  Method = c("Best Subset", "Forward Selection", "Backward Selection", "Ridge Regression", "Lasso", "PLS", "Regression Tree", "Bagging", "Random Forests", "Boosting"), 
+  MSE = c(1.116786, 1.116785, 1.116785, 1.655353, 1.586618, 1.587266, 0.8744749, 0.07755276, 0.118209, 0.1268387)
+)
+quantitative_table <- kable(quantitative_overview, "markdown") %>% 
+  kable_styling(full_width = FALSE) %>%
+  column_spec(1, bold = TRUE)
+quantitative_table
+```
+
+
+# Section 3: How can the indicators be used to predict AIDS deaths? 
+
+**Principal Components Regression**    
+A PCR model on the data has an MSE of 52.88973, and explains 84.87% of the variance.
+```{r}
+# Creating x and y vectors
+x <- model.matrix(aids_death_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + hiv_infection_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, hiv_df_boot)[, -1]
+y <- hiv_df_boot$aids_death_rate
+
+# Creating test and training sets
+set.seed(123)
+train <- sample(1:nrow(x), nrow(x) / 2)
+test <- (-train)
+y.test <- y[test]
+
+# Creating the model
+set.seed(123)
+pcr_aids <- pcr(aids_death_rate ~ infant_mortality_rate + fertility_rate + life_exp + pop_growth_rate + urban_pop + youth_literacy_rate + hiv_infection_rate + mother_child_hiv_transmis_rate + per_child_under_poverty, data = hiv_df_boot, scale = TRUE, validation = "CV")
+summary(pcr_aids)
+
+# Determining the best M value and calculating MSE
+validationplot(pcr_aids, val.type = "MSEP")
+# The lowest cross-validation error occurs when M = 5 partial least squares directions are used. 
+pcr_pred_aids <- predict(pcr_aids, x[test, ], ncomp = 5)
+pcr_fit_aids <- pcr(y ~ x, scale = TRUE, ncomp = 5)
+summary(pcr_fit_aids)
+coef(pcr_fit_aids)
+cat("MSE:", mean((pcr_pred_aids - y.test)^2), "\n")
+```
+
